@@ -1,0 +1,16 @@
+.container {
+  min-height: 100vh;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.completed li {
+  text-decoration: line-through;
+}
+
+.completed li.active {
+  background: red;
+  border: 1px solid red;
+}
