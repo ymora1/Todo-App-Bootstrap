@@ -1,5 +1,6 @@
 .container {
   min-height: 100vh;
+  background: powderblue;
 }
 
 .list-group-item {
@@ -7,10 +8,10 @@
 }
 
 .completed li {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 
 .completed li.active {
-  background: red;
+  background: pink;
   border: 1px solid red;
 }
